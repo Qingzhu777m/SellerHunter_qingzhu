@@ -11,6 +11,7 @@ public class GoogleDemo {
         System.setProperty("webdriver.chrome.driver", "webdriver/chromedriver");
         WebDriver driver = new ChromeDriver();
         driver.get("http://www.google.com");
+        driver.quit();
 
 
 
